@@ -36,7 +36,12 @@
   -->
   <ItemGroup>
     <Compile Include="..\..\src\Godot-AI-CSG\Runtime\Tools\Tool_CSG.cs" Link="Source\Tool_CSG.cs" />
-    <Compile Include="..\..\src\Godot-AI-CSG\Runtime\Tools\Tool_CSG.Echo.cs" Link="Source\Tool_CSG.Echo.cs" />
+    <Compile Include="..\..\src\Godot-AI-CSG\Runtime\Tools\Tool_CSG.Ids.cs" Link="Source\Tool_CSG.Ids.cs" />
+    <Compile Include="..\..\src\Godot-AI-CSG\Runtime\Tools\Tool_CSG.Defaults.cs" Link="Source\Tool_CSG.Defaults.cs" />
+    <Compile Include="..\..\src\Godot-AI-CSG\Runtime\CSG\CsgOperation.cs" Link="Source\CsgOperation.cs" />
+    <Compile Include="..\..\src\Godot-AI-CSG\Runtime\CSG\CsgPrimitiveKind.cs" Link="Source\CsgPrimitiveKind.cs" />
+    <Compile Include="..\..\src\Godot-AI-CSG\Runtime\CSG\CsgShapeInfo.cs" Link="Source\CsgShapeInfo.cs" />
+    <Compile Include="..\..\src\Godot-AI-CSG\Runtime\CSG\CsgDefaults.cs" Link="Source\CsgDefaults.cs" />
   </ItemGroup>
 
 </Project>
