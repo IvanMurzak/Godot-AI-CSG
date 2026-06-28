@@ -1,0 +1,30 @@
+src/Godot-AI-CSG/Runtime/CSG/CsgDefaults.cs
+  s_e3cea916442b5e::t_7b88e39d209807 98
+  s_e3cea916442b5e::t_af1d19f05ba68f 42-46
+tests/e2e/e2e-tools.json
+  s_e3cea916442b5e::t_477d184e15ab22 45
+  s_e3cea916442b5e::t_87a866aadda423 25
+src/Godot-AI-CSG/README.md
+  s_e3cea916442b5e::t_bc56df6eb8dd25 31
+tests/Godot-AI-CSG.Tests/CsgDefaultsTests.cs
+  s_e3cea916442b5e::t_296df5791b6d00 109-112,114,116-117
+src/Godot-AI-CSG/Editor/Tools/Tool_CSG.SphereCreate.cs
+  s_e3cea916442b5e::t_d2b91f9f687f3b 44
+  s_e3cea916442b5e::t_f3dec324ef4604 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "7dba3ad08b1a72cd49ccdcf493b838e48fc555bc",
+  "prompts": {},
+  "sessions": {
+    "s_e3cea916442b5e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c575ab56-73e6-4952-bb8b-fef415924e27",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
