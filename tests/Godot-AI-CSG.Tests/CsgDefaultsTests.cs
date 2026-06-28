@@ -106,13 +106,15 @@ namespace com.IvanMurzak.Godot.MCP.CSG.Tests
         }
 
         [Theory]
-        [InlineData(0, 3)]
-        [InlineData(-5, 3)]
-        [InlineData(2, 3)]
-        [InlineData(3, 3)]
+        [InlineData(0, 4)]
+        [InlineData(-5, 4)]
+        [InlineData(3, 4)]
+        [InlineData(4, 4)]
         [InlineData(24, 24)]
-        public void ClampRadialSegments_FloorsAtThree(int input, int expected)
+        public void ClampRadialSegments_FloorsAtFour(int input, int expected)
         {
+            // Godot's CSGSphere3D engine setter itself floors radial_segments to 4, so the managed
+            // clamp mirrors that floor (a request below 4 is raised to 4; 4 and above pass through).
             Assert.Equal(expected, CsgDefaults.ClampRadialSegments(input));
         }
     }

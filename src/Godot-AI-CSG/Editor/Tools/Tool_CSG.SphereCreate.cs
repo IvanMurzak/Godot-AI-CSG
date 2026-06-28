@@ -31,7 +31,7 @@ namespace com.IvanMurzak.Godot.MCP.CSG
             "structured config. Optionally pass 'parentPath' (a node path relative to the scene root) to " +
             "parent it (defaults to the scene root, or place it under a CsgCombiner3D for a boolean op), " +
             "'name' to rename it, 'radius' (clamped to > 0; default 0.5), and 'radialSegments' (clamped to " +
-            ">= 3; default 12). The new node's owner is set to the scene root so it is saved with the scene.")]
+            ">= 4; default 12). The new node's owner is set to the scene root so it is saved with the scene.")]
         public CsgShapeInfo SphereCreate
         (
             [Description("Name for the new node. When omitted, Godot's default name for the type is used.")]
@@ -41,7 +41,7 @@ namespace com.IvanMurzak.Godot.MCP.CSG
             string? parentPath = null,
             [Description("Sphere radius (Godot 'radius'); clamped to > 0. Defaults to 0.5.")]
             double? radius = null,
-            [Description("Number of radial segments (Godot 'radial_segments'); clamped to >= 3. Defaults to 12.")]
+            [Description("Number of radial segments (Godot 'radial_segments'); clamped to >= 4. Defaults to 12.")]
             int? radialSegments = null
         )
         {

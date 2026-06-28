@@ -22,7 +22,7 @@
     {
       "tool": "csg-sphere-create",
       "input": { "name": "Ball", "radius": 1.5, "radialSegments": 0 },
-      "expect": ["\"Kind\":\"Sphere\"", "\"Radius\":1.5", "\"RadialSegments\":3"]
+      "expect": ["\"Kind\":\"Sphere\"", "\"Radius\":1.5", "\"RadialSegments\":4"]
     },
     {
       "tool": "csg-cylinder-create",
@@ -42,7 +42,7 @@
     {
       "tool": "csg-get",
       "input": { "nodePath": "Ball" },
-      "expect": ["\"Kind\":\"Sphere\"", "\"Operation\":\"Subtraction\"", "\"RadialSegments\":3"]
+      "expect": ["\"Kind\":\"Sphere\"", "\"Operation\":\"Subtraction\"", "\"RadialSegments\":4"]
     }
   ]
 }

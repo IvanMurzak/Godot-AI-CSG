@@ -39,8 +39,11 @@ namespace com.IvanMurzak.Godot.MCP.CSG
         /// <summary>The smallest positive dimension a clamp will yield (never 0 — Godot needs a positive extent).</summary>
         public const double MinDimension = 0.001;
 
-        /// <summary>The fewest radial segments a sphere needs to form a closed surface (Godot floors low values).</summary>
-        public const int MinRadialSegments = 3;
+        /// <summary>The fewest radial segments a CSG sphere can hold. Godot's <c>CSGSphere3D</c> engine setter
+        /// itself floors <c>radial_segments</c> to 4 (a lower request is silently raised to 4 on the live node),
+        /// so the managed clamp mirrors that floor — otherwise the reported value would not match what the node
+        /// actually stores.</summary>
+        public const int MinRadialSegments = 4;
 
         /// <summary>
         /// A recommended starter configuration for the given kind, as a fully-populated
@@ -92,7 +95,7 @@ namespace com.IvanMurzak.Godot.MCP.CSG
         public static double ClampHeight(double height) =>
             (height <= 0.0 || double.IsNaN(height)) ? MinDimension : height;
 
-        /// <summary>Clamp a sphere's radial-segment count to a value that forms a closed surface (&gt;= 3).</summary>
+        /// <summary>Clamp a sphere's radial-segment count to Godot's engine floor (&gt;= 4).</summary>
         public static int ClampRadialSegments(int segments) =>
             segments < MinRadialSegments ? MinRadialSegments : segments;
     }
