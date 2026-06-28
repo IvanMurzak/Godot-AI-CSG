@@ -1,0 +1,23 @@
+src/Godot-AI-CSG/Runtime/Tools/Tool_CSG.Ids.cs
+  s_e3cea916442b5e::t_1f759cceacc41a 1-40
+src/Godot-AI-CSG/Runtime/Tools/Tool_CSG.Defaults.cs
+  s_e3cea916442b5e::t_d2b45a4ef59074 1-49
+src/Godot-AI-CSG/Runtime/Tools/Tool_CSG.cs
+  s_e3cea916442b5e::t_3e64e44c67385a 15-22,25,28-29,32-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "287b98a2604044348d176a7830ee4b38f63dd349",
+  "prompts": {},
+  "sessions": {
+    "s_e3cea916442b5e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c575ab56-73e6-4952-bb8b-fef415924e27",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
