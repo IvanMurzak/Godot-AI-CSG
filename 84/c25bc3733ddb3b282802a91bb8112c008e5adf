@@ -1,0 +1,35 @@
+tests/Godot-AI-CSG.Tests/CsgPrimitiveKindTests.cs
+  s_e3cea916442b5e::t_992832f5075505 1-67
+tests/Godot-AI-CSG.Tests/Tool_CSG_DefaultsTests.cs
+  s_e3cea916442b5e::t_05dabf92d32680 1-64
+tests/Godot-AI-CSG.Tests/CsgDefaultsTests.cs
+  s_e3cea916442b5e::t_619b310b838ec2 1-119
+tests/Godot-AI-CSG.Tests/CsgOperationTests.cs
+  s_e3cea916442b5e::t_462eda7d7054a1 1-73
+tests/Godot-AI-CSG.Tests/Godot-AI-CSG.Tests.csproj
+  s_ad3fed57fdd92c::t_f5dd2b4f449dc3 39-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "84c25bc3733ddb3b282802a91bb8112c008e5adf",
+  "prompts": {},
+  "sessions": {
+    "s_ad3fed57fdd92c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a2e02ff30b2deed9f",
+        "model": "unknown"
+      },
+      "human_author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    },
+    "s_e3cea916442b5e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c575ab56-73e6-4952-bb8b-fef415924e27",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
