@@ -1,0 +1,33 @@
+src/Godot-AI-CSG/Editor/Tools/Tool_CSG.CombinerCreate.cs
+  s_e3cea916442b5e::t_5c81651550b4c9 1-65
+src/Godot-AI-CSG/Editor/Tools/Tool_CSG.SphereCreate.cs
+  s_e3cea916442b5e::t_02877a3d75a99c 1-62
+src/Godot-AI-CSG/Editor/Tools/Tool_CSG.Editor.cs
+  s_e3cea916442b5e::t_ea4301b7fa2b6d 1-134
+src/Godot-AI-CSG/Editor/Tools/Tool_CSG.CylinderCreate.cs
+  s_e3cea916442b5e::t_e933e75f70681d 1-62
+src/Godot-AI-CSG/Editor/Tools/Tool_CSG.SetOperation.cs
+  s_e3cea916442b5e::t_0c979e72eb8200 6
+  s_e3cea916442b5e::t_2319e182091228 14
+  s_e3cea916442b5e::t_4367c46db3985b 1-5,7-13,15-55
+src/Godot-AI-CSG/Editor/Tools/Tool_CSG.Get.cs
+  s_e3cea916442b5e::t_f2b5cf4c9e8ee0 1-44
+src/Godot-AI-CSG/Editor/Tools/Tool_CSG.BoxCreate.cs
+  s_e3cea916442b5e::t_f64f3006820b97 1-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "2cb94c7835aef102cc1bd2656c3423c82d77dea1",
+  "prompts": {},
+  "sessions": {
+    "s_e3cea916442b5e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c575ab56-73e6-4952-bb8b-fef415924e27",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
