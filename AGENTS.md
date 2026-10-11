@@ -30,10 +30,9 @@ the load-bearing detail — read `docs/source-only-nuget-recipe.md`.
 
 ## Tools
 
-Ids live in `Runtime/Tools/Tool_CSG.Ids.cs` (the source of truth). Each tool is one partial-class file named
-after it: pure-managed under `Runtime/Tools/`, editor tools under `Editor/Tools/`. Current tools:
-`csg-defaults` (pure-managed), `csg-box-create`, `csg-sphere-create`, `csg-cylinder-create`,
-`csg-combiner-create`, `csg-set-operation`, `csg-get`.
+Ids live in `Runtime/Tools/Tool_CSG.Ids.cs` (the source of truth). Current tools: `csg-defaults`
+(pure-managed), `csg-box-create`, `csg-sphere-create`, `csg-cylinder-create`, `csg-combiner-create`,
+`csg-set-operation`, `csg-get`.
 
 ## Build / test (no Godot binary)
 
